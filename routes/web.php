@@ -29,4 +29,4 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::post('/contact/message','MessagesController@submit');
+Route::post('/contact/submit','MessagesController@submit');
