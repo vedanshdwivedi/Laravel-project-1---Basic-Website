@@ -21,7 +21,7 @@
 		</div>
 	</div>
 	<footer id="footer" class="text-center">
-		<p>Copyright 2018 &copy; Vedansh Dwivedi</p>
+		<p>Copyright 2018 &copy; Vedansh Dwivedi &nbsp; <a class="nav-link" href="/message">Messages</a></p>
 	</footer>
 </body>
 </html>

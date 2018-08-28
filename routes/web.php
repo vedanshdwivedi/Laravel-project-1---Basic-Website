@@ -11,22 +11,15 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/home','pagesController@getHome');
 
-Route::get('/home', function () {
-    return view('home');
-});
+Route::get('/','pagesController@getHome');
+
+Route::get('/about','pagesController@getAbout');
 
 
-Route::get('/about', function () {
-    return view('about');
-});
+Route::get('/contact','pagesController@getContact');
 
-
-Route::get('/contact', function () {
-    return view('contact');
-});
+Route::get('/message','MessagesController@getMessages');
 
 Route::post('/contact/submit','MessagesController@submit');
